@@ -16,7 +16,7 @@ export default function Home({data1}) {
   return (
     <Box display={"flex"}>
     <Profile data={data1}/>
- {/* // <ProjectCard/> */}
+ 
       
     </Box>
   )
