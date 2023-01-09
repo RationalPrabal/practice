@@ -7,6 +7,7 @@ const Profile = ({data}) => {
 <Box w="20%" textAlign={"center"}>
  
   {/* <Img src={data.avatar_url} borderRadius="60%"/> */}
+
   <Text>{data.name}</Text>
   <Text>@{data.login}</Text>
   <Text>{data.bio}</Text>
@@ -16,7 +17,7 @@ const Profile = ({data}) => {
   </Box>
   </Box>
   <Box w="20%">
-{data.bio}
+{/* {data.bio} */}
   </Box>
   </Box>
   )
