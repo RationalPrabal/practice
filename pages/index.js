@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import axios from 'axios'
 import { Box } from '@chakra-ui/react'
 import Profile from '../components/Profile'
-import ProjectCard from '../components/ProjectCard'
 import React from 'react'
 
 
